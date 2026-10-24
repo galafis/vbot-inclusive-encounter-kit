@@ -145,7 +145,7 @@ O projeto está pronto para exploração em software. Os exemplos são fictício
 | [Convite recusado](https://galafis.github.io/vbot-inclusive-encounter-kit/?lang=pt&example=invitation-declined)        | Recusar encerra o convite sem exigir participação.                          | ended · gravação: false · 0 rejeições  |
 | [Pausar e retomar](https://galafis.github.io/vbot-inclusive-encounter-kit/?lang=pt&example=pause-and-resume)           | Retomar a participação não restaura a permissão de gravação.                | active · gravação: false · 0 rejeições |
 | [Retirada é final](https://galafis.github.io/vbot-inclusive-encounter-kit/?lang=pt&example=withdrawal-final)           | Tentativas de retomar depois da retirada ficam registradas como rejeitadas. | ended · gravação: false · 3 rejeições  |
-| [Gravação é outra escolha](https://galafis.github.io/vbot-inclusive-encounter-kit/?lang=pt&example=recording-separate) | Pedir gravação antes de aceitar o encontro não a autoriza.                  | ended · gravação: false · 1 rejeições  |
+| [Gravação é outra escolha](https://galafis.github.io/vbot-inclusive-encounter-kit/?lang=pt&example=recording-separate) | Pedir gravação antes de aceitar o encontro não a autoriza.                  | ended · gravação: false · 1 rejeição  |
 
 ### Executar e contribuir
 
