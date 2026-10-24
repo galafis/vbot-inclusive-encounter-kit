@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "type": "accept"
+    },
+    {
+      "type": "record_grant"
+    },
+    {
+      "type": "pause",
+      "note": "private note not exported"
+    },
+    {
+      "type": "resume"
+    },
+    {
+      "type": "record_grant"
+    },
+    {
+      "type": "record_revoke"
+    },
+    {
+      "type": "withdraw"
+    }
+  ]
+}

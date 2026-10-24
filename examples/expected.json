@@ -1,0 +1,64 @@
+{
+  "mode": "facilitator_workflow_replay",
+  "state": "ended",
+  "recording": false,
+  "journal": [
+    {
+      "sequence": 1,
+      "type": "accept",
+      "accepted": true,
+      "state": "active",
+      "recording": false
+    },
+    {
+      "sequence": 2,
+      "type": "record_grant",
+      "accepted": true,
+      "state": "active",
+      "recording": true
+    },
+    {
+      "sequence": 3,
+      "type": "pause",
+      "accepted": true,
+      "state": "paused",
+      "recording": false
+    },
+    {
+      "sequence": 4,
+      "type": "resume",
+      "accepted": true,
+      "state": "active",
+      "recording": false
+    },
+    {
+      "sequence": 5,
+      "type": "record_grant",
+      "accepted": true,
+      "state": "active",
+      "recording": true
+    },
+    {
+      "sequence": 6,
+      "type": "record_revoke",
+      "accepted": true,
+      "state": "active",
+      "recording": false
+    },
+    {
+      "sequence": 7,
+      "type": "withdraw",
+      "accepted": true,
+      "state": "ended",
+      "recording": false
+    }
+  ],
+  "rejections": [],
+  "operator_checklist": [
+    "Verify native motion state separately",
+    "Verify native camera/microphone state separately",
+    "Do not infer device compliance from this journal"
+  ],
+  "participant_score": null
+}
+

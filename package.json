@@ -1,0 +1,16 @@
+{
+  "name": "vbot-inclusive-encounter-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Replay an optional robot encounter with separate participation and recording choices, pause/resume, withdrawal and a minimal public event journal.",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node cli.mjs examples/baseline.json",
+    "serve": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
