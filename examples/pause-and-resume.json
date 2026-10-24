@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "type": "accept"
+    },
+    {
+      "type": "record_grant"
+    },
+    {
+      "type": "pause"
+    },
+    {
+      "type": "resume"
+    }
+  ]
+}

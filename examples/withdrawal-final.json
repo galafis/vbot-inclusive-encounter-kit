@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "type": "accept"
+    },
+    {
+      "type": "withdraw"
+    },
+    {
+      "type": "resume"
+    },
+    {
+      "type": "accept"
+    },
+    {
+      "type": "record_grant"
+    }
+  ]
+}

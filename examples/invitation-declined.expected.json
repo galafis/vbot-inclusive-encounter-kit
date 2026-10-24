@@ -1,0 +1,21 @@
+{
+  "mode": "facilitator_workflow_replay",
+  "state": "ended",
+  "recording": false,
+  "journal": [
+    {
+      "sequence": 1,
+      "type": "decline",
+      "accepted": true,
+      "state": "ended",
+      "recording": false
+    }
+  ],
+  "rejections": [],
+  "operator_checklist": [
+    "Verify native motion state separately",
+    "Verify native camera/microphone state separately",
+    "Do not infer device compliance from this journal"
+  ],
+  "participant_score": null
+}

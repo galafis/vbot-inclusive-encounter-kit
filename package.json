@@ -1,13 +1,16 @@
 {
   "name": "vbot-inclusive-encounter-kit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Replay an optional robot encounter with separate participation and recording choices, pause/resume, withdrawal and a minimal public event journal.",
+  "description": "Rehearse a voluntary robot encounter. Participation, pauses, withdrawal and recording permissions remain separate and visible.",
   "scripts": {
     "test": "node --test",
     "demo": "node cli.mjs examples/baseline.json",
-    "serve": "node server.mjs"
+    "study": "node study.mjs examples/baseline.json",
+    "serve": "node server.mjs",
+    "examples:check": "node scripts/check-examples.mjs",
+    "check": "node --check app.mjs && node --test && node scripts/check-examples.mjs"
   },
   "engines": {
     "node": ">=22"

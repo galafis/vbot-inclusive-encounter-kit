@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "type": "record_grant"
+    },
+    {
+      "type": "accept"
+    },
+    {
+      "type": "record_grant"
+    },
+    {
+      "type": "record_revoke"
+    },
+    {
+      "type": "finish"
+    }
+  ]
+}

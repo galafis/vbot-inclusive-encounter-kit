@@ -1,0 +1,33 @@
+{
+  "slug": "vbot-inclusive-encounter-kit",
+  "short": {
+    "en": "Inclusive Encounter Kit",
+    "pt": "Kit de Encontro Inclusivo"
+  },
+  "tag": {
+    "en": "Participation & privacy",
+    "pt": "Participação e privacidade"
+  },
+  "headline": {
+    "en": "An invitation. Always a choice.",
+    "pt": "Um convite. Sempre uma escolha."
+  },
+  "description": {
+    "en": "Rehearse a voluntary robot encounter. Participation, pauses, withdrawal and recording permissions remain separate and visible.",
+    "pt": "Ensaie um encontro voluntário com o robô. Participação, pausas, retirada e permissão de gravação ficam separadas e visíveis."
+  },
+  "color": "#79528f",
+  "question": {
+    "en": "What should a facilitator's workflow allow after a pause, a refusal or withdrawal?",
+    "pt": "O que o fluxo do facilitador deve permitir depois de uma pausa, recusa ou retirada?"
+  },
+  "method": "Finite state machine with independently granted recording and minimal public export",
+  "outcome": {
+    "en": "A step-by-step journal that makes choices and rejected transitions inspectable.",
+    "pt": "Um diário por etapas que deixa escolhas e transições rejeitadas abertas à inspeção."
+  },
+  "number": 4,
+  "version": "0.2.0",
+  "source": "https://github.com/galafis/vbot-inclusive-encounter-kit",
+  "demo": "https://galafis.github.io/vbot-inclusive-encounter-kit/"
+}

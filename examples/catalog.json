@@ -1,0 +1,67 @@
+[
+  {
+    "id": "baseline",
+    "title": {
+      "pt": "Encontro com retirada",
+      "en": "Encounter with withdrawal"
+    },
+    "context": {
+      "pt": "Permissões são revistas durante o encontro, que termina por escolha.",
+      "en": "Permissions change during an encounter ended by choice."
+    },
+    "file": "baseline.json",
+    "expected": "expected.json"
+  },
+  {
+    "id": "invitation-declined",
+    "title": {
+      "pt": "Convite recusado",
+      "en": "Invitation declined"
+    },
+    "context": {
+      "pt": "Recusar encerra o convite sem exigir participação.",
+      "en": "Declining ends the invitation without requiring participation."
+    },
+    "file": "invitation-declined.json",
+    "expected": "invitation-declined.expected.json"
+  },
+  {
+    "id": "pause-and-resume",
+    "title": {
+      "pt": "Pausar e retomar",
+      "en": "Pause and resume"
+    },
+    "context": {
+      "pt": "Retomar a participação não restaura a permissão de gravação.",
+      "en": "Resuming participation does not restore recording permission."
+    },
+    "file": "pause-and-resume.json",
+    "expected": "pause-and-resume.expected.json"
+  },
+  {
+    "id": "withdrawal-final",
+    "title": {
+      "pt": "Retirada é final",
+      "en": "Withdrawal is final"
+    },
+    "context": {
+      "pt": "Tentativas de retomar depois da retirada ficam registradas como rejeitadas.",
+      "en": "Attempts to resume after withdrawal are recorded as rejected."
+    },
+    "file": "withdrawal-final.json",
+    "expected": "withdrawal-final.expected.json"
+  },
+  {
+    "id": "recording-separate",
+    "title": {
+      "pt": "Gravação é outra escolha",
+      "en": "Recording is a separate choice"
+    },
+    "context": {
+      "pt": "Pedir gravação antes de aceitar o encontro não a autoriza.",
+      "en": "A recording request before accepting participation does not authorize it."
+    },
+    "file": "recording-separate.json",
+    "expected": "recording-separate.expected.json"
+  }
+]
